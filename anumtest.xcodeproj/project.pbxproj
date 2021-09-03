@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F78F9CA726E23B1A00F1FE70 /* anumtestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CA626E23B1A00F1FE70 /* anumtestApp.swift */; };
-		F78F9CA926E23B1A00F1FE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CA826E23B1A00F1FE70 /* ContentView.swift */; };
 		F78F9CAB26E23B1B00F1FE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78F9CAA26E23B1B00F1FE70 /* Assets.xcassets */; };
 		F78F9CAE26E23B1B00F1FE70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78F9CAD26E23B1B00F1FE70 /* Preview Assets.xcassets */; };
 		F78F9CB826E23B1B00F1FE70 /* anumtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CB726E23B1B00F1FE70 /* anumtestTests.swift */; };
 		F78F9CC226E23B1B00F1FE70 /* anumtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CC126E23B1B00F1FE70 /* anumtestUITests.swift */; };
 		F78F9CC426E23B1B00F1FE70 /* anumtestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CC326E23B1B00F1FE70 /* anumtestUITestsLaunchTests.swift */; };
+		F78F9CD226E23F9900F1FE70 /* Highcharts in Frameworks */ = {isa = PBXBuildFile; productRef = F78F9CD126E23F9900F1FE70 /* Highcharts */; };
+		F78F9CD726E2406500F1FE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CD626E2406500F1FE70 /* ContentView.swift */; };
+		F78F9CD926E2406700F1FE70 /* HighChartRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CD826E2406700F1FE70 /* HighChartRepresentable.swift */; };
+		F78F9CDB26E2406900F1FE70 /* ElevationChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F9CDA26E2406900F1FE70 /* ElevationChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F78F9CA326E23B1A00F1FE70 /* anumtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anumtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78F9CA626E23B1A00F1FE70 /* anumtestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anumtestApp.swift; sourceTree = "<group>"; };
-		F78F9CA826E23B1A00F1FE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F78F9CAA26E23B1B00F1FE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78F9CAD26E23B1B00F1FE70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F78F9CB326E23B1B00F1FE70 /* anumtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anumtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,9 @@
 		F78F9CBD26E23B1B00F1FE70 /* anumtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anumtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78F9CC126E23B1B00F1FE70 /* anumtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anumtestUITests.swift; sourceTree = "<group>"; };
 		F78F9CC326E23B1B00F1FE70 /* anumtestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anumtestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F78F9CD626E2406500F1FE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F78F9CD826E2406700F1FE70 /* HighChartRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighChartRepresentable.swift; sourceTree = "<group>"; };
+		F78F9CDA26E2406900F1FE70 /* ElevationChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F9CD226E23F9900F1FE70 /* Highcharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				F78F9CA626E23B1A00F1FE70 /* anumtestApp.swift */,
-				F78F9CA826E23B1A00F1FE70 /* ContentView.swift */,
+				F78F9CD626E2406500F1FE70 /* ContentView.swift */,
+				F78F9CD826E2406700F1FE70 /* HighChartRepresentable.swift */,
+				F78F9CDA26E2406900F1FE70 /* ElevationChart.swift */,
 				F78F9CAA26E23B1B00F1FE70 /* Assets.xcassets */,
 				F78F9CAC26E23B1B00F1FE70 /* Preview Content */,
 			);
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = anumtest;
+			packageProductDependencies = (
+				F78F9CD126E23F9900F1FE70 /* Highcharts */,
+			);
 			productName = anumtest;
 			productReference = F78F9CA326E23B1A00F1FE70 /* anumtest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = F78F9C9A26E23B1A00F1FE70;
+			packageReferences = (
+				F78F9CD026E23F9900F1FE70 /* XCRemoteSwiftPackageReference "highcharts-ios" */,
+			);
 			productRefGroup = F78F9CA426E23B1A00F1FE70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78F9CA926E23B1A00F1FE70 /* ContentView.swift in Sources */,
+				F78F9CDB26E2406900F1FE70 /* ElevationChart.swift in Sources */,
+				F78F9CD726E2406500F1FE70 /* ContentView.swift in Sources */,
+				F78F9CD926E2406700F1FE70 /* HighChartRepresentable.swift in Sources */,
 				F78F9CA726E23B1A00F1FE70 /* anumtestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F78F9CD026E23F9900F1FE70 /* XCRemoteSwiftPackageReference "highcharts-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/highcharts/highcharts-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F78F9CD126E23F9900F1FE70 /* Highcharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F78F9CD026E23F9900F1FE70 /* XCRemoteSwiftPackageReference "highcharts-ios" */;
+			productName = Highcharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F78F9C9B26E23B1A00F1FE70 /* Project object */;
 }
